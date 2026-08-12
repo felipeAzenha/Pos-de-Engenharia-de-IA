@@ -2,11 +2,12 @@
   "name": "01-primeira-rede-neural",
   "version": "1.0.0",
   "description": "",
-  "main": "Train.js",
+  "main": "Model-Train.js",
   "types": "module",
   "type": "module",
   "scripts": {
-    "start": "TF_CPP_MIN_LOG_LEVEL=3 node --no-warnings --no-deprecation Train.js",
+    "Train": "TF_CPP_MIN_LOG_LEVEL=3 node --no-warnings --no-deprecation Model-Train.js",
+    "Predict": "TF_CPP_MIN_LOG_LEVEL=3 node --no-warnings --no-deprecation Model-Predict.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
